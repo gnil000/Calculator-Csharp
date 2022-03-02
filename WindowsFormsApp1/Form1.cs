@@ -8,7 +8,7 @@ namespace WindowsFormsApp1
 
         string inputField = "0";
         double firstNum;
-        double result =0;
+        double result = 0;
         char operation;
         bool flagMinus = false;
         bool afterMulti = false;
@@ -118,17 +118,6 @@ namespace WindowsFormsApp1
         private void buttonMulti_Click(object sender, EventArgs e)
         {
             input.Text += '*';
-
-            /*
-            if (afterMulti == true)
-            {
-                operation = '*';
-                afterMulti = false;
-                return;
-            }
-            firstNum = Convert.ToDouble(inputField);
-            inputField = "0";
-            */
             
             if (afterMulti == false)
             {
@@ -155,16 +144,6 @@ namespace WindowsFormsApp1
         private void buttonDivided_Click(object sender, EventArgs e)
         {
             input.Text += '/';
-
-            /*
-            if (afterMulti == true) {
-                operation = '/';
-                afterMulti = false;
-                return;
-            }
-            firstNum = Convert.ToDouble(inputField);
-            inputField = "0";
-            */
             
             if (afterMulti == false)
             {
